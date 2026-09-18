@@ -26,3 +26,21 @@
 ![Stars](https://img.shields.io/github/stars/Rahul-1052?affiliations=OWNER&style=flat-square&color=8B5CF6&label=STARS)
 
 </div>
+
+---
+
+## About
+
+I am an **AI/ML and Data Analytics professional** with a Computer Science foundation and graduate training in Applied Analytics, focused on building practical AI-powered products that transform complex data into useful insights and intelligent workflows.
+
+My work spans **machine learning, generative AI, computer vision, data analytics, forecasting, visualization, and AI application development**. I have built end-to-end projects covering data acquisition, feature engineering, model development, AI reasoning, validation, analytics, visualization, and deployment.
+
+My recent work includes **Stratify**, an AI-powered creator intelligence platform, and **NEXOR**, a healthcare market access analytics platform. Across these projects, I focus on building AI systems that use measurable evidence, confidence-aware reasoning, and practical analytics rather than producing generic AI outputs.
+
+### Open To
+
+```text
+AI/ML Engineering          Applied AI
+Data Analytics             Data Science
+Generative AI              AI Product Development
+Machine Learning           Analytics Engineering
