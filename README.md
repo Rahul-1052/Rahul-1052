@@ -36,7 +36,7 @@
 
 I'm an **AI/ML Engineer and AI Product Builder** with a background in **Computer Science and Applied Analytics**, focused on building practical AI systems that turn data into useful insights, decisions, and products.
 
-My work spans **Machine Learning, Generative AI, LLM applications, Computer Vision, Data Analytics, and Data Visualization**. I enjoy working across the full AI product lifecycle — from **data acquisition and feature engineering to model development, reasoning, validation, visualization, and deployment**.
+My work spans **Machine Learning, Generative AI, LLM applications, Computer Vision, Data Analytics, and Data Visualization**. I enjoy working across the AI product lifecycle — from **data acquisition and feature engineering to modeling, reasoning, validation, visualization, and deployment**.
 
 Currently, I'm building and improving:
 
@@ -191,7 +191,7 @@ A major focus of my work is **evidence-driven AI** — building systems that mea
 
 ### What is Stratify?
 
-Creators can see **views, likes, comments, and watch metrics**, but those numbers don't necessarily explain *why* one piece of content performs differently from another.
+Creators can see **views, likes, comments, and other performance metrics**, but those numbers don't necessarily explain *why* one piece of content performs differently from another.
 
 Stratify is being built to investigate that gap.
 
@@ -217,8 +217,181 @@ Discover Patterns
 Evaluate Confidence
       ↓
 Generate Experiments
-
 ```
+
+### Key Capabilities
+
+- **Single Video Analysis** — examines individual videos across available visual, temporal, metadata, and performance signals.
+- **Multi-Video Comparison** — compares multiple videos using a shared evidence structure.
+- **Channel Intelligence** — analyzes channel uploads to identify patterns and outliers.
+- **Pattern Intelligence** — searches for recurring differences across qualified content.
+- **Content DNA** — summarizes recurring metadata and opening characteristics.
+- **Growth Lab** — converts observations into structured experiments creators can test.
+- **Cluster Analysis** — groups qualified content using statistical feature patterns.
+- **Confidence & Abstention** — avoids strong recommendations when available evidence is insufficient.
+
+### Evidence-Driven AI
+
+A core design principle behind Stratify is separating:
+
+```text
+Observation → Evidence → Reasoning → Recommendation
+```
+
+The system first measures what can actually be observed and then reasons over those observations.
+
+When evidence is weak, incomplete, or inconsistent, the system can **lower confidence or abstain** rather than present speculation as a reliable insight.
+
+### Engineering Work
+
+`Python` `Machine Learning` `Computer Vision` `LLMs` `Clustering` `Feature Engineering` `Data Analytics` `API Integration` `Caching` `Validation`
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/Rahul-1052/Stratify-Intro-Intelligence">
+  <img src="https://img.shields.io/badge/VIEW%20STRATIFY-1E40AF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+<br/>
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>NEXOR — Healthcare Market Access Analytics Platform</b></summary>
+
+<br/>
+
+> **A healthcare analytics platform combining claims, insurance, pharmaceutical, forecasting, and LLM-powered analytics.**
+
+<br/>
+
+| | |
+| :--- | :--- |
+| **Core Stack** | Python • Streamlit • Pandas • Plotly • Statsmodels |
+| **AI / ML** | Machine Learning • Forecasting • LLM Applications |
+| **Healthcare Data** | Synthetic EHR • Claims • Encounters • Coverage |
+| **Forecasting** | ARIMA • SARIMA |
+| **LLM** | NVIDIA NIM • Llama 3.1 |
+| **Analytics** | Insurance • Pharmaceutical • Patient • Claims |
+| **Repository** | [View NEXOR on GitHub](https://github.com/Rahul-1052/NEXOR-Healthcare-Analytics) |
+
+### What is NEXOR?
+
+Healthcare data can span patients, encounters, claims, insurance coverage, conditions, and costs. Turning those records into useful information requires more than simply displaying raw numbers.
+
+NEXOR brings these signals together into an interactive **healthcare market access analytics environment**.
+
+The platform uses **Synthea-generated synthetic healthcare data**, enabling realistic healthcare analytics workflows without relying on real patient information.
+
+### How It Works
+
+```text
+Synthetic Healthcare Data
+          ↓
+Data Preparation
+          ↓
+Patient / Claims / Coverage Analysis
+          ↓
+Statistical & Forecasting Models
+          ↓
+Interactive Analytics
+          ↓
+LLM-Assisted Insights
+```
+
+### Key Capabilities
+
+- **Insurance Analytics** — analyzes coverage, claims, costs, and payer-related information.
+- **Pharmaceutical Analytics** — supports market-access-oriented analysis across healthcare data.
+- **Patient Analytics** — explores patient and encounter-level patterns.
+- **Claims Intelligence** — transforms claims information into interpretable metrics and visualizations.
+- **Forecasting** — applies ARIMA/SARIMA models to analyze and forecast trends.
+- **Interactive Dashboards** — presents healthcare KPIs through accessible visual interfaces.
+- **Conversational Analytics** — integrates LLM capabilities for natural-language interaction with analytical outputs.
+
+### Engineering Work
+
+`Python` `Healthcare Analytics` `Data Analytics` `Machine Learning` `ARIMA` `SARIMA` `LLMs` `Plotly` `Streamlit`
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/Rahul-1052/NEXOR-Healthcare-Analytics">
+  <img src="https://img.shields.io/badge/VIEW%20NEXOR-4338CA?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+<br/>
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>Vehicle Collision Detection & Alert System</b></summary>
+
+<br/>
+
+> **A computer vision project exploring vehicle detection and automated collision-alert workflows using video data.**
+
+<br/>
+
+| | |
+| :--- | :--- |
+| **Language** | Python |
+| **Computer Vision** | OpenCV • YOLOv3 |
+| **Deep Learning** | CNN |
+| **Processing** | Video • Frame Analysis • Object Detection |
+| **Domain** | Vehicle Safety • Collision Detection |
+
+### Project Overview
+
+This project explores the use of **computer vision and deep learning for automated vehicle collision detection**.
+
+Video frames are processed using OpenCV, while YOLOv3-based object detection identifies vehicles and provides visual information for collision-related analysis.
+
+### Pipeline
+
+```text
+Video Input
+     ↓
+Frame Processing
+     ↓
+Vehicle Detection
+     ↓
+Visual Analysis
+     ↓
+Collision Detection Logic
+     ↓
+Alert Workflow
+```
+
+### Key Work
+
+- Implemented vehicle detection using **YOLOv3**.
+- Built video and frame-processing workflows with **OpenCV**.
+- Applied CNN and deep-learning concepts.
+- Developed collision-event detection logic.
+- Explored automated alert-generation workflows.
+
+### Engineering Work
+
+`Python` `OpenCV` `YOLOv3` `CNN` `Deep Learning` `Computer Vision` `Image Processing`
+
+<br/>
+
+</details>
+
+---
+
 ## Experience
 
 ### Data Specialist Intern — 360DigiTMG
@@ -307,7 +480,7 @@ Graduate studies focused on **advanced analytics, machine learning, data science
 **Bachelor of Technology in Computer Science and Engineering**  
 **Jun 2019 — Jun 2023**
 
-Built a strong foundation across **computer science, programming, algorithms, databases, machine learning, and software development**, with applied work in computer vision and deep learning.
+Built a foundation across **computer science, programming, algorithms, databases, machine learning, and software development**, with applied work in computer vision and deep learning.
 
 **Focus Areas**
 
@@ -342,6 +515,20 @@ open_to:
   - Data Science
   - AI Product Development
 ```
+
+---
+
+## Contribution Arcade 👾
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rahul-1052/Rahul-1052/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rahul-1052/Rahul-1052/output/pacman-contribution-graph.svg">
+  <img alt="Rahul Karaka Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/Rahul-1052/Rahul-1052/output/pacman-contribution-graph.svg">
+</picture>
+
+</div>
 
 ---
 
